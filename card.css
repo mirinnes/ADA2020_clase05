@@ -1,0 +1,84 @@
+body {
+    margin: 25px 25px;
+    background-color: #012E40;
+
+}
+
+header {
+    background-color: #025E73;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+footer {
+    position: relative;
+    bottom: -52px;
+    background-color: #BF5934;
+    height: 80px;
+}
+
+p .descripcion {
+    position: relative;
+    top: 30px;
+}
+
+
+.card {
+    background-color: #026873;
+    margin: auto 10px;
+    width: 30%;
+    height: 650px;
+    border-radius: 5%;;
+    /*border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;*/
+    box-shadow: 0 0 15px #EEF2D0;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+
+.card-image {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 25px 0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+.card .title {
+    font-size: 20px;
+    position: relative;
+    bottom: 25px;
+    font-family: 'Akronim';
+
+}
+
+.card .frase {
+    font-style: italic;
+    position: relative;
+    top: 15px;
+    margin: 15px 15px;
+}
+
+.card .palabra-clave {
+    font-weight: 600;
+}
+
+.card .card-content .descripcion {
+    height: 30px;
+}
+.corazon {
+    background-image: url("img-card/heart-2.png");
+}
+
+.cerebro {
+    background-image: url("img-card/cerebro.pnh.png");
+}
+
+.manos {
+    background-image: url("img-card/hands.png");
+
+}
